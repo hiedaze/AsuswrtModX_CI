@@ -1,6 +1,8 @@
 name: Build Asuswrt-Modx Next
 
 on:
+  watch:
+    types: [started]
   workflow_dispatch:
     inputs:
       branch:
